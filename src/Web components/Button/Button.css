@@ -19,9 +19,9 @@
   transition: all 0.3s ease;
 }
 
-/* ========================= */
+
 /* PRIMARY */
-/* ========================= */
+
 
 .button--primary {
   background-color: #0D6EFD;
@@ -32,9 +32,9 @@
   background-color: #002E73;
 }
 
-/* ========================= */
+
 /* DANGER */
-/* ========================= */
+
 
 .button--danger {
   background-color: #DC3545;
@@ -46,9 +46,9 @@
   color: #DC3545;
 }
 
-/* ========================= */
+
 /* WARNING */
-/* ========================= */
+
 
 .button--warning {
   background-color: #F59E0B;
@@ -60,9 +60,9 @@
   color: #F59E0B;
 }
 
-/* ========================= */
+
 /* SUCCESS */
-/* ========================= */
+
 
 .button--success {
   background-color: #198754;
@@ -74,9 +74,9 @@
   color: #198754;
 }
 
-/* ========================= */
+
 /* DISABLED */
-/* ========================= */
+
 
 .button--disabled {
   background-color: #F5F5F5;

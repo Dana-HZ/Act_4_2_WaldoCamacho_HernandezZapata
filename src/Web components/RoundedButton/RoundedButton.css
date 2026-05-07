@@ -1,0 +1,39 @@
+.rounded-button {
+  width: 30px;
+  height: 30px;
+
+  border: none;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+
+  cursor: pointer;
+
+  transition: all 0.3s ease;
+}
+
+/* ========================= */
+/* SELECTED */
+/* ========================= */
+
+.rounded-button--selected {
+  background-color: #0D6EFD;
+  color: white;
+
+  border: 1px solid #002E73;
+}
+
+/* ========================= */
+/* UNSELECTED */
+/* ========================= */
+
+.rounded-button--unselected {
+  background-color: #F5F5F5;
+  color: #6C757D;
+}
