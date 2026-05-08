@@ -1,0 +1,186 @@
+.card {
+
+  width: 380px;
+
+  min-height: 59px;
+
+  border-radius: var(--RADIUS-SMALL);
+
+  border: 1px solid black;
+
+  background: var(--COLOR-WHITE);
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  padding: 12px 16px;
+
+  box-sizing: border-box;
+
+  gap: 16px;
+}
+
+
+/* INFO */
+
+.card-info {
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 6px;
+
+  flex: 1;
+
+  min-width: 0;
+}
+
+
+/* NAME */
+
+.card-name {
+
+  margin: 0;
+
+  color: black;
+
+  font-family: var(--FONT-FAMILY-ROBOTO);
+
+  font-size: var(--FONT-SIZE-BODY);
+
+  font-style: normal;
+
+  font-weight: var(--FONT-WEIGHT-REGULAR);
+
+  line-height: normal;
+}
+
+
+/* ENROLLMENT */
+
+.card-enrollment {
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 6px;
+
+  flex-wrap: wrap;
+}
+
+
+/* LABEL */
+
+.card-enrollment-label {
+
+  color: black;
+
+  font-family: var(--FONT-FAMILY-INTER);
+
+  font-size: 12px;
+
+  font-style: normal;
+
+  font-weight: 200;
+
+  line-height: normal;
+}
+
+
+/* NUMBER */
+
+.card-enrollment-number {
+
+  color: black;
+
+  font-family: var(--FONT-FAMILY-INTER);
+
+  font-size: 12px;
+
+  font-style: normal;
+
+  font-weight: 200;
+
+  line-height: normal;
+}
+
+
+/* BUTTONS */
+
+.card-buttons {
+
+  display: flex;
+
+  gap: 6px;
+
+  flex-shrink: 0;
+}
+
+
+/* BUTTON */
+
+.card-button {
+
+  min-width: 64px;
+
+  height: 30px;
+
+  padding: 0 10px;
+
+  border: none;
+
+  border-radius: var(--RADIUS-DEFAULT);
+
+  background: var(--COLOR-WHITE);
+
+  color: #8C8C8C;
+
+  font-family: var(--FONT-FAMILY-ROBOTO);
+
+  font-size: 14px;
+
+  font-weight: var(--FONT-WEIGHT-SEMIBOLD);
+
+  cursor: pointer;
+
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+
+  transition: var(--TRANSITION-DEFAULT);
+
+  white-space: nowrap;
+}
+
+
+/* PRESENT ACTIVE */
+
+.card-button--present-active {
+
+  background: var(--COLOR-SUCCESS);
+
+  color: var(--COLOR-WHITE);
+}
+
+
+/* LATE ACTIVE */
+
+.card-button--late-active {
+
+  background: var(--COLOR-WARNING);
+
+  color: var(--COLOR-TEXT-MAIN);
+}
+
+
+/* ABSENT ACTIVE */
+
+.card-button--absent-active {
+
+  background: var(--COLOR-DANGER);
+
+  color: var(--COLOR-WHITE);
+}

@@ -9,17 +9,20 @@
   justify-content: center;
   align-items: center;
 
-  gap: 10px;
+  gap: var(--SPACING-MD);
 
   box-sizing: border-box;
 
-  color: var(--TEXT-MAIN, #374151);
+  color: var(--COLOR-TEXT-MAIN);
 
   text-align: center;
 
-  font-family: Roboto, sans-serif;
-  font-size: 14px;
+  font-family: var(--FONT-FAMILY-ROBOTO);
+
+  font-size: var(--FONT-SIZE-BODY);
+
   font-style: normal;
+
   line-height: normal;
 }
 
@@ -27,31 +30,34 @@
 /* HEADER */
 
 .cell-header {
-  background: var(--TABLE-CebraCell, #E2E8F0);
 
-  border-radius: 6px 0 0 0;
+  background: var(--TABLE-CEBRA-CELL);
 
-  font-weight: 600;
+  border-radius: var(--RADIUS-DEFAULT) 0 0 0;
+
+  font-weight: var(--FONT-WEIGHT-SEMIBOLD);
 }
 
 
 /* CONTENT */
 
 .cell-content {
-  background: var(--TABLE-WhiteCell, #FFFFFF);
 
-  border-radius: 0 0 0 6px;
+  background: var(--TABLE-WHITE-CELL);
 
-  font-weight: 400;
+  border-radius: 0 0 0 var(--RADIUS-DEFAULT);
+
+  font-weight: var(--FONT-WEIGHT-REGULAR);
 }
 
 
 /* ZEBRA */
 
 .cell-zebra {
-  background: var(--TABLE-CebraCell, #E2E8F0);
+
+  background: var(--TABLE-CEBRA-CELL);
 
   border-radius: 0;
 
-  font-weight: 400;
+  font-weight: var(--FONT-WEIGHT-REGULAR);
 }

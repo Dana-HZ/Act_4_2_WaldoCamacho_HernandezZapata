@@ -1,0 +1,82 @@
+:root {
+
+  /* =========================
+     COLORS
+  ========================== */
+
+  --COLOR-PRIMARY: #0D6EFD;
+  --COLOR-PRIMARY-DARK: #002E73;
+
+  --COLOR-DANGER: #DC3545;
+  --COLOR-WARNING: #F59E0B;
+  --COLOR-SUCCESS: #198754;
+
+  --COLOR-TEXT-MAIN: #374151;
+  --COLOR-TEXT-LIGHT: #6C757D;
+
+  --COLOR-BORDER: #CED4DA;
+
+  --COLOR-WHITE: #FFFFFF;
+
+  --COLOR-LIGHT-GRAY: #F5F5F5;
+
+  --COLOR-BLUE-DARK: #0B4684;
+
+
+  /* =========================
+     TABLE
+  ========================== */
+
+  --TABLE-CEBRA-CELL: #E2E8F0;
+  --TABLE-WHITE-CELL: #FFFFFF;
+
+
+  /* =========================
+     FONTS
+  ========================== */
+
+  --FONT-FAMILY-INTER: Inter, sans-serif;
+  --FONT-FAMILY-ROBOTO: Roboto, sans-serif;
+
+  --FONT-SIZE-BODY: 14px;
+  --FONT-SIZE-TITLE: 24px;
+
+
+  /* =========================
+     FONT WEIGHTS
+  ========================== */
+
+  --FONT-WEIGHT-REGULAR: 400;
+  --FONT-WEIGHT-MEDIUM: 500;
+  --FONT-WEIGHT-SEMIBOLD: 600;
+
+
+  /* =========================
+     RADIUS
+  ========================== */
+
+  --RADIUS-SMALL: 4px;
+  --RADIUS-DEFAULT: 6px;
+  --RADIUS-FULL: 20px;
+  --RADIUS-CIRCLE: 50%;
+
+
+  /* =========================
+     SPACING
+  ========================== */
+
+  --SPACING-XS: 4px;
+  --SPACING-SM: 6px;
+  --SPACING-MD: 10px;
+  --SPACING-LG: 12px;
+  --SPACING-XL: 20px;
+  --SPACING-2XL: 30px;
+
+
+  /* =========================
+     TRANSITIONS
+  ========================== */
+
+  --TRANSITION-DEFAULT: all 0.3s ease;
+
+}

@@ -1,0 +1,125 @@
+.modal {
+
+  width: 780px;
+  height: 682px;
+
+  background: var(--COLOR-WHITE);
+
+  border: 1px solid black;
+
+  border-radius: var(--RADIUS-SMALL);
+
+  box-sizing: border-box;
+
+  padding: 18px 18px 16px 18px;
+
+  display: flex;
+
+  flex-direction: column;
+}
+
+
+/* HEADER */
+
+.modal-header {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: flex-start;
+}
+
+
+/* TEXT */
+
+.modal-text {
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 4px;
+}
+
+
+/* TITLE */
+
+.modal-title {
+
+  margin: 0;
+
+  color: black;
+
+  font-family: var(--FONT-FAMILY-INTER);
+
+  font-size: 24px;
+
+  font-style: normal;
+
+  font-weight: 600;
+
+  line-height: normal;
+}
+
+
+/* SUBTITLE */
+
+.modal-subtitle {
+
+  margin: 0;
+
+  color: var(--COLOR-TEXT-MAIN);
+
+  font-family: var(--FONT-FAMILY-ROBOTO);
+
+  font-size: var(--FONT-SIZE-BODY);
+
+  font-style: normal;
+
+  font-weight: 400;
+
+  line-height: normal;
+}
+
+
+/* CONTENT */
+
+.modal-content {
+
+  flex: 1;
+
+  margin-top: 24px;
+}
+
+
+/* FOOTER */
+
+.modal-footer {
+
+  display: flex;
+
+  justify-content: flex-end;
+
+  align-items: center;
+
+  gap: 18px;
+}
+
+
+/* CANCEL BUTTON */
+
+.modal-cancel-button {
+
+  border: none;
+
+  background: transparent;
+
+  cursor: pointer;
+
+  font-family: var(--FONT-FAMILY-ROBOTO);
+
+  font-size: 14px;
+
+  color: black;
+}

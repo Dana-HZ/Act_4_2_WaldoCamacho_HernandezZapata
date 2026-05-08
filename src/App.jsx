@@ -5,6 +5,10 @@ import Input from "./Web components/Input/Input";
 import Pill from "./Web components/Pill/Pill";
 import StatsCard from "./Web components/StatsCard/StatsCard";
 import Cell from "./Web components/Cell/Cell";
+import SideBar from "./Web components/SideBar/SideBar";
+import Card from "./Web components/Card/Card";
+import Modal from "./Web components/Modal/Modal";
+
 
 function App() {
 
@@ -36,19 +40,20 @@ function App() {
 
       {/* ROUNDED BUTTONS */}
 
-      <div
-        style={{
-          display: "flex",
-          gap: "10px",
-          marginTop: "40px"
-        }}
-      >
+<div
+  style={{
+    display: "flex",
+    gap: "10px",
+    marginTop: "40px"
+  }}
+>
 
-        <RoundedButton variant="selected" />
+  <RoundedButton />
 
-        <RoundedButton variant="unselected" />
+  <RoundedButton />
 
-      </div>
+
+</div>
 
 
       {/* PROGRESS BARS */}
@@ -153,6 +158,60 @@ function App() {
 
 
 </div>
+
+{/* SIDEBAR */}
+
+<div
+  style={{
+    marginTop: "40px"
+  }}
+>
+
+  <SideBar />
+
+</div>
+
+{/* CARDS */}
+
+<div
+  style={{
+    display: "flex",
+    flexDirection: "column",
+    gap: "40px",
+    marginTop: "40px"
+  }}
+>
+
+  <Card status="present" />
+
+  <Card status="late" />
+
+  <Card status="absent" />
+
+</div>
+
+
+{/* MODAL */}
+
+<div
+  style={{
+    display: "flex",
+    flexDirection: "column",
+    gap: "40px",
+    marginTop: "40px"
+  }}
+>
+
+  <Modal> </Modal>
+
+  <Modal>
+
+    <Card />
+
+  </Modal>
+
+</div>
+
 
     </div>
 

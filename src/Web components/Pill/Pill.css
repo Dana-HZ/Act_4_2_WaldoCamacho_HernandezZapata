@@ -1,52 +1,62 @@
 .pill {
+
   width: 100px;
+
   height: 19px;
 
   display: flex;
+
   align-items: center;
+
   justify-content: center;
 
-  border-radius: 20px;
+  border-radius: var(--RADIUS-FULL);
 
-  font-family: Inter, sans-serif;
-  font-size: 14px;
-  font-weight: 500;
+  font-family: var(--FONT-FAMILY-INTER);
+
+  font-size: var(--FONT-SIZE-BODY);
+
+  font-weight: var(--FONT-WEIGHT-MEDIUM);
 
   text-align: center;
 }
 
-/* ========================= */
+
 /* BLUE */
-/* ========================= */
 
 .pill--blue {
+
   background: rgba(65, 142, 255, 0.30);
+
   color: #002050;
 }
 
-/* ========================= */
+
 /* GREEN */
-/* ========================= */
 
 .pill--green {
+
   background: rgba(25, 135, 84, 0.30);
+
   color: #004425;
 }
 
-/* ========================= */
+
 /* RED */
-/* ========================= */
 
 .pill--red {
+
   background: rgba(220, 53, 69, 0.30);
+
   color: #78000C;
 }
 
-/* ========================= */
+
 /* YELLOW */
-/* ========================= */
 
 .pill--yellow {
+
   background: rgba(255, 246, 0, 0.30);
+
   color: #736F00;
 }
